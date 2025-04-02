@@ -1,0 +1,64 @@
+
+
+nav {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #5f737f;
+
+}
+
+p {
+    color: #5f737f;
+
+}
+
+.standard-font {
+    font-family: "Bakbak One";
+}
+
+.nav-link {
+    border-radius: 20px 20px 20px 20px;
+    color: #5f737f;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar-toggler {
+    margin: 10px;
+}
+
+.nav-link:hover {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #cee6f3;
+    color: #2b53ff;
+}
+
+.services-about-button {
+    padding: 10px;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #2b53ff;
+}
+
+.card {
+    border-color: #5f737f;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+    transform: translate(10px, 10px);
+}
+
+
+.services-about-button:hover {
+    
+}
