@@ -42,23 +42,27 @@ p {
 }
 
 .services-about-button {
-    padding: 10px;
     color: white;
     border-radius: 15px 15px 15px 15px;
     background-color: #2b53ff;
+    padding: 10px;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+.services-about-button:hover {
+    background-color: #5271ff;
 }
 
 .card {
+
     border-color: #5f737f;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .25s;
+
 }
 
 .card:hover {
-    transform: translate(10px, 10px);
-}
-
-
-.services-about-button:hover {
-    
+    scale: 1.05;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
