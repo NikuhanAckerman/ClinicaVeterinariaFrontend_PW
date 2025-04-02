@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 nav {
     background-color: white;
@@ -11,7 +13,6 @@ body {
 
 h1 {
     color: #5f737f;
-
 }
 
 p {
@@ -43,6 +44,7 @@ p {
 
 .services-about-button {
     color: white;
+    font-family: "Bakbak One";
     border-radius: 15px 15px 15px 15px;
     background-color: #2b53ff;
     padding: 10px;
@@ -54,15 +56,39 @@ p {
     background-color: #5271ff;
 }
 
-.card {
-
+.services-card {
     border-color: #5f737f;
     border-radius: 15px;
     transition: all .25s;
 
 }
 
-.card:hover {
+.services-card:hover {
     scale: 1.05;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.login-button {
+    color: white;
+    font-family: "Bakbak One";
+    border-radius: 12px 12px 12px 12px;
+    background-color: #2b53ff;
+    padding: 10px;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+.login-button:hover {
+    background-color: #5271ff;
+}
+
+.toast {
+    bottom: 15px;
+    right: 15px;
+    z-index: 99999;
 }
