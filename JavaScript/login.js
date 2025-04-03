@@ -13,6 +13,11 @@ let adminAccountLogins = new Map([
 const loginButtonElement = document.getElementById("loginButtonElement");
 const emailElement = document.getElementById("emailElement");
 const passwordElement = document.getElementById("passwordElement");
+const rememberPasswordElement = document.getElementById("rememberPasswordElement");
+
+if(localStorage.getItem("Senha Lembrada") != null) {
+    passwordElement.value = localStorage.getItem("Senha Lembrada");
+}
 
 function checkLoginInfo(loginMap) {
     var emailTyped = emailElement.value;
@@ -25,6 +30,12 @@ function checkLoginInfo(loginMap) {
             return true;
         }
 
+    }
+
+    if(rememberPasswordElement.checked) {
+        localStorage.setItem("Senha Lembrada", passwordTyped);
+    } else {
+        localStorage.removeItem("Senha Lembrada");
     }
 
     return false;
